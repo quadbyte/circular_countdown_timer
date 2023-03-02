@@ -1,3 +1,23 @@
+## [0.2.3] - Oct 29 2022.
+* Fixes:
+    * Fixed values of isPaused and isResumed parameters of CountDownController.
+
+* Features:
+    * Added parameter (isRestarted) in CountDownController to get the restart status of Countdown Timer.
+    * Added Optional parameter Function(Function(Duration duration) defaultFormatterFunction, Duration duration) named **timeFormatterFunction** that allows you to format the current duration to any String in Countdown Widget.
+## [0.2.2] - Jun 23 2022.
+* Fixes:
+    * Showed duration value when autoStart is false.
+    * If initialDuration is given, then timer doesn't starts. It hangs.
+
+* Features:
+    * Added parameters (isStarted, isPaused, isResumed) in CountDownController to get the current status of Countdown Timer.
+    * Added **reset** method in CountDownController to reset the Countdown Timer.
+    * Added Optional Parameter ValueChanged<String> named **onChange** which will execute when the Countdown Changes.
+
+## [0.2.1] - Mar 13 2022.
+* Updated package to latest Flutter version.
+
 ## [0.2.0] - Mar 23 2021.
 
 * Added Null Safety Support.
